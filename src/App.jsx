@@ -140,6 +140,8 @@ function App() {
           <th scope="col">Priority level</th>
           <th scope="col">Completion Status</th>
           <th scope="col"></th>
+          <th scope="col"></th>
+
         </tr>
       </thead>
       <tbody>
@@ -154,6 +156,7 @@ function App() {
           <td>{list.deadline}</td>
           <td>{list.Priority}</td>
           <td>{list.status}</td>
+          <button type="button" class="btn btn-primary">edit</button>
           <td><button type="button" class="btn btn-danger">Delete</button></td>
 
         </tr>
